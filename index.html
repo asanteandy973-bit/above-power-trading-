@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<b><title>All Products | Above Power Trading</title></b>
+<style>
+body {
+    font-family: Arial;
+    background: #fff8dc;
+    margin:0;
+    padding:0;
+}
+
+.container {
+    width:90%;
+    max-width:1200px;
+    margin:30px auto;
+}
+
+h1 {
+    color:#7e14f7;
+    text-align:center;
+    margin-bottom:30px;
+}
+
+/* Video section */
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.video-container video {
+    width: 32%;
+    border-radius: 10px;
+}
+
+@media(max-width:768px){
+    .video-container video {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+/* Product galleries */
+.product-card {
+    background:#f4f4f4;
+    padding:15px;
+    border-radius:10px;
+    margin-bottom:30px;
+    text-align:center;
+}
+
+.product-card h3 {
+    margin-top:15px;
+    color:#7e14f7;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content:center;
+}
+
+.gallery img {
+    width: calc(33% - 10px);
+    border-radius:8px;
+}
+
+@media(max-width:768px){
+    .gallery img { width: calc(50% - 10px); }
+}
+
+@media(max-width:480px){
+    .gallery img { width: 100%; }
+}
+
+/* Button */
+.btn {
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 15px;
+    background:orange;
+    color:blue;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+<h1>All Products</h1>
+
+<!-- Videos -->
+<div class="video-container">
+    <video controls muted playsinline>
+        <source src="man.mp4" type="video/mp4">
+    </video>
+    <video controls muted playsinline>
+        <source src="house1.mp4" type="video/mp4">
+    </video>
+    <video controls muted playsinline>
+        <source src="furniture.mp4" type="video/mp4">
+    </video>
+</div>
+
+<!-- Furniture -->
+<div class="product-card">
+    <h3>Furniture & Beds</h3>
+    <div class="gallery">
+        <img src="furniture1.jpg" alt="Furniture">
+        <img src="furniture2.jpg" alt="Furniture">
+        <img src="furniture3.jpg" alt="Furniture">
+        <img src="furniture4.jpg" alt="Furniture">
+        <img src="furniture5.jpg" alt="Furniture">
+        <img src="furniture6.jpg" alt="Furniture">
+        <img src="furniture7.jpg" alt="Furniture">
+        <img src="furniture8.jpg" alt="Furniture">
+        
+    </div>
+    <a class="btn" href="https://wa.me/233242626459">Order Now</a>
+</div>
+
+<!-- Decor -->
+<div class="product-card">
+    <h3>Decor & Accessories</h3>
+    <div class="gallery">
+        <img src="decor1.jpg" alt="Decor">
+        <img src="decor2.jpg" alt="Decor">
+        <img src="decor3.jpg" alt="Decor">
+        <img src="decor4.jpg" alt="Decor">
+        <img src="decor5.jpg" alt="Decor">
+        <img src="decor6.jpg" alt="Decor">
+        <img src="decor7.jpg" alt="Decor">
+        <img src="decor8.jpg" alt="Decor">
+        <img src="decor9.jpg" alt="Decor">
+    </div>
+    <a class="btn" href="https://wa.me/233242626459">Order Now</a>
+</div>
+
+
+
+<!-- Automobile -->
+<div class="product-card">
+    <h3>Automobile</h3>
+    <div class="gallery">
+        <img src="Automobile1.jpg" alt="Automobile">
+        <img src="Automobile2.jpg" alt="Automobile">
+        <img src="Automobile3.jpg" alt="Automobile">
+        <img src="Automobile4.jpg" alt="Automobile">
+        <img src="Automobile5.jpg" alt="Automobile">
+        <img src="Automobile6.jpg" alt="Automobile">
+        <img src="Automobile7.jpg" alt="Automobile">
+        <img src="Automobile8.jpg" alt="Automobile">
+        <img src="Automobile9.jpg" alt="Automobile">
+    </div>
+    <a class="btn" href="https://wa.me/233242626459">Order Now</a>
+</div>
+
+
+
+<!-- Electronics -->
+<div class="product-card">
+    <h3>Electronics & Batteries</h3>
+    <div class="gallery">
+        <img src="Electronics1.jpg" alt="Electronics">
+        <img src="Electronics2.jpg" alt="Electronics">
+        <img src="Electronics3.jpg" alt="Electronics">
+        
+        
+    </div>
+    <a class="btn" href="https://wa.me/233242626459">Order Now</a>
+
+
+
+
+</div>
+</body>
+</html>
